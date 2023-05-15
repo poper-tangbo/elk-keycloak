@@ -19,11 +19,11 @@ xpack.security.authc.realms.oidc:
     rp.response_type: code
     rp.redirect_uri: "http://127.0.0.1:5601/api/security/oidc/callback"
     rp.post_logout_redirect_uri: "http://127.0.0.1:5601/security/logged_out"
-    op.issuer: "https://host.docker.internal:8443/realms/kcauth"
-    op.authorization_endpoint: "https://host.docker.internal:8443/realms/kcauth/protocol/openid-connect/auth"
-    op.token_endpoint: "https://host.docker.internal:8443/realms/kcauth/protocol/openid-connect/token"
-    op.jwkset_path: "https://host.docker.internal:8443/realms/kcauth/protocol/openid-connect/certs"
-    op.userinfo_endpoint: "https://host.docker.internal:8443/realms/kcauth/protocol/openid-connect/userinfo"
-    op.endsession_endpoint: "https://host.docker.internal:8443/realms/kcauth/protocol/openid-connect/logout"
+    op.issuer: "https://keycloak.local.com:8443/realms/kcauth"
+    op.authorization_endpoint: "https://keycloak.local.com:8443/realms/kcauth/protocol/openid-connect/auth"
+    op.token_endpoint: "https://keycloak.local.com:8443/realms/kcauth/protocol/openid-connect/token"
+    op.jwkset_path: "https://keycloak.local.com:8443/realms/kcauth/protocol/openid-connect/certs"
+    op.userinfo_endpoint: "https://keycloak.local.com:8443/realms/kcauth/protocol/openid-connect/userinfo"
+    op.endsession_endpoint: "https://keycloak.local.com:8443/realms/kcauth/protocol/openid-connect/logout"
     claims.principal: email
     ssl.verification_mode: none

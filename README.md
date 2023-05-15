@@ -32,4 +32,4 @@
 6. 访问
     访问 http://127.0.0.1:5601/ 即可看到kibana页面
     > 用户名: elastic  
-    > 密码: changeme
+    密码: changeme
