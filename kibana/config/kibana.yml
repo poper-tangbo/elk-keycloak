@@ -93,10 +93,10 @@ xpack.fleet.agentPolicies:
               - name: url
                 value: http://apm-server:8200
 xpack.security.authc.providers:
-  oidc.oidc1:
-    order: 0
-    realm: oidc1
-    description: "Log in with Keycloak"
-    icon: "https://127.0.0.1:8443/resources/caswf/admin/keycloak.v2/favicon.svg"
+#  oidc.oidc1:
+#    order: 0
+#    realm: oidc1
+#    description: "Log in with Keycloak"
+#    icon: "https://127.0.0.1:8443/resources/caswf/admin/keycloak.v2/favicon.svg"
   basic.basic1:
     order: 1

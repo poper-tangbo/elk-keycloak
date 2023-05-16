@@ -12,7 +12,6 @@
 2. 安装配置并启动服务
     ```bash
     docker compose up setup
-    
     docker compose up -d
     ```
 3. 配置client_secret
