@@ -103,8 +103,16 @@ services:
     container_name: nginx
     volumes:
       - ./nginx/config/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./php:/var/www/html
     ports:
       - "8181:80"
+  php:
+    image: "php:8.1.17-fpm-alpine"
+    container_name: php
+    restart: always
+    volumes:
+      - ./php:/var/www/html
+
 
 volumes:
   elasticsearch:
